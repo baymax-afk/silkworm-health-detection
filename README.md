@@ -28,6 +28,15 @@ This project uses YOLO26n (You Only Look Once) for real-time object detection to
 pip install ultralytics opencv-python
 ```
 
+## Usage
+Example usages have been provided in the the main.ipynb file
+
+* Predict on Single Image
+* Real-Time Webcam Detection
+* Predict on Video
+
+
+
 ## Training the Model
 
 If you want to train your own model from scratch or fine-tune the existing one:
@@ -50,13 +59,6 @@ model.train(
 # Save/export model (optional)
 model.export(format="onnx")  # export to ONNX format
 ```
-
-## Usage
-Example usages have been provided in the the main.ipynb file
-
-* Predict on Single Image
-* Real-Time Webcam Detection
-* Predict on Video
 
 
 ## Dataset Structure
