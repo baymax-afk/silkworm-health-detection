@@ -17,7 +17,11 @@ This project uses YOLO26n (You Only Look Once) for real-time object detection to
 ## Model Files
 
 - `silk_disease_det.pt` - Pre-trained model for detecting infected and healthy silkworms
-- `yolo11n.pt` - YOLOv11 nano base model (for training from scratch)
+- `main.ipynb` - Example usages have been provided in the the main.ipynb file
+
+    * Predict on Single Image
+    * Real-Time Webcam Detection
+    * Predict on Video
 
 [The dataset](https://universe.roboflow.com/capstone-sucsf/silkworm-dataset/browse?queryText=&pageSize=50&startingIndex=0&browseQuery=true)
 
@@ -27,14 +31,6 @@ This project uses YOLO26n (You Only Look Once) for real-time object detection to
 ```bash
 pip install ultralytics opencv-python
 ```
-
-## Usage
-Example usages have been provided in the the main.ipynb file
-
-* Predict on Single Image
-* Real-Time Webcam Detection
-* Predict on Video
-
 
 ## Metrics
 <img width="1295" height="377" alt="image" src="https://github.com/user-attachments/assets/ae824db4-8da0-4fa6-af1c-3e49a32ebbdf" />
