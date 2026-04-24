@@ -48,7 +48,7 @@ If you want to train your own model from scratch or fine-tune the existing one:
 from ultralytics import YOLO
 
 # Load a pretrained model (recommended)
-model = YOLO("yolo11n.pt")  # options: yolo8n.pt, yolo11s.pt, yolo11m.pt, etc.
+model = YOLO("yolo26n.pt")  # options: yolo8n.pt, yolo11s.pt, yolo11m.pt, etc.
 
 # Train the model
 model.train(
